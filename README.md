@@ -1,6 +1,6 @@
 # PassVault - Password Manager
 
-PassVault is a responsive and modern password manager built with **React.js**, **Vite**, **Tailwind CSS**, and **Local Storage**. It allows users to securely store, edit, and delete their passwords with a clean and intuitive interface.
+PassVault is a responsive and modern password manager built with **React.js**, **Vite**, **Tailwind CSS**,**Express.js** and **MongoDb**. It allows users to securely store, edit, and delete their passwords with a clean and intuitive interface.
 
 # ScreenShots
 ![image](https://github.com/user-attachments/assets/ee52a5a4-5df8-4f14-a828-0ffbfa393aff)
@@ -11,7 +11,7 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 
 ## Features
 
-- **Add Passwords:** Save website credentials (site, username/email, password) securely in your browser's local storage.
+- **Add Passwords:** Save website credentials (site, username/email, password) securely on MongoDB.
 - **Edit Passwords:** Update existing credentials easily.
 - **Delete Passwords:** Remove credentials you no longer need.
 - **Copy to Clipboard:** Instantly copy site, username, or password with a single click.
@@ -34,7 +34,7 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 1. **Clone the repository:**
    
    git clone <repo-url>
-   cd Password-Manager-App1
+   cd Password-Manager-App2
    npm install
    npm run dev
 
