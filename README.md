@@ -33,10 +33,10 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 
 1. **Clone the repository:**
    
-   git clone <repo-url>
-   cd Password-Manager-App2
-   npm install
-   npm run dev
+   -git clone <repo-url>
+   -cd Password-Manager-App2
+   -npm install
+   -npm run dev
 
    ## 👨‍💻 Author
 
