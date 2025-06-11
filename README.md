@@ -23,20 +23,57 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 
 ## How It Works
 
-- **Frontend:** Built with [React.js](https://react.dev/) and [Vite](https://vitejs.dev/) for fast development and hot module replacement.
-- **Styling:** Uses [Tailwind CSS](https://tailwindcss.com/) for utility-first, responsive design.
-- **Routing:** Managed with [react-router-dom](https://reactrouter.com/) for seamless navigation.
-- **Unique IDs:** Password entries are uniquely identified using [uuid](https://www.npmjs.com/package/uuid).
-- **Local Storage:** All password data is stored locally in your browser, ensuring privacy and persistence.
+1. **Frontend:**  
+   The React frontend provides a form to add new passwords and displays all saved credentials in a table. Each entry can be copied, edited, or deleted. Passwords are masked for security.
+
+2. **Backend:**  
+   The Express.js backend exposes three main endpoints:
+   - `GET /` — Fetch all saved passwords.
+   - `POST /` — Add a new password.
+   - `DELETE /` — Delete a password by its ID.
+
+   The backend uses MongoDB to persist all password data.
+
+3. **Clipboard Copy:**  
+   Click the copy icon next to any field to copy its value to your clipboard, with a toast notification for feedback.
+
+4. **Password Visibility:**  
+   Click the eye icon to toggle password visibility when entering a new password.
 
 ## Getting Started
 
- **Clone the repository:**
+### Prerequisites
+
+- Node.js and npm
+- MongoDB running locally or a MongoDB Atlas connection
+
+### Setup
+
+#### Backend
+
+1. Navigate to the `Backend` directory:
+   cd Backend
+
+2. Install dependencies:
+   npm install
+
+3. Configure your .env file (already present):
+   MONGO_URI=mongodb://localhost:27017
+   DB_NAME=PassVault
    
--git clone <repo-url>
--cd Password-Manager-App2
--npm install
--npm run dev
+5. Start the backend server:
+   node --watch server.js
+
+#### Frontend
+
+1. Navigate to the project root:
+  cd..
+
+2. Install dependencies:
+  npm install
+
+3. Start the deveploment server:
+  npm run dev
 
 ## 👨‍💻 Author
   
