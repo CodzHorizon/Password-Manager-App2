@@ -1,6 +1,6 @@
 # PassVault - Password Manager
 
-PassVault is a responsive and modern password manager built with **React.js**, **Vite**, **Tailwind CSS**,**Express.js** and **MongoDb**. It allows users to securely store, edit, and delete their passwords with a clean and intuitive interface.
+PassVault is a responsive and modern password manager built with **React.js**, **Vite**, **Tailwind CSS**, **Express.js** and **MongoDb**. It allows users to securely store, edit, and delete their passwords with a clean and intuitive interface.
 
 # ScreenShots
 ![image](https://github.com/user-attachments/assets/ee52a5a4-5df8-4f14-a828-0ffbfa393aff)
@@ -11,12 +11,12 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 
 ## Features
 
-- **Add Passwords:** Save website credentials (site, username/email, password) securely on MongoDB.
+- **Add Passwords:** Save website credentials (site, username/email, password) securely.
 - **Edit Passwords:** Update existing credentials easily.
 - **Delete Passwords:** Remove credentials you no longer need.
 - **Copy to Clipboard:** Instantly copy site, username, or password with a single click.
 - **Show/Hide Password:** Toggle password visibility for convenience.
-- **Persistent Storage:** All data is stored in the browser's local storage, ensuring your passwords remain available across sessions.
+- **Persistent Storage:** All data is stored on Backend using Express.js and MongoDb.
 - **Responsive Design:** Optimized for all screen sizes, from mobile to desktop.
 - **Modern UI:** Built with Tailwind CSS for a sleek and user-friendly experience.
 - **Notifications:** Get instant feedback for actions like save, delete, and copy using [react-toastify](https://fkhadra.github.io/react-toastify/introduction/).
@@ -42,12 +42,12 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 
 ## Getting Started
 
-### Prerequisites
+### Prerequisites-
 
 - Node.js and npm
 - MongoDB running locally or a MongoDB Atlas connection
 
-### Setup
+### Setup-
 
 #### Backend
 
@@ -66,7 +66,7 @@ PassVault is a responsive and modern password manager built with **React.js**, *
 
 #### Frontend
 
-1. Navigate to the project root:
+1. Clone & Navigate to the project root:
   cd..
 
 2. Install dependencies:
